@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SASS build</title>
+    <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/7132534/7654172/css/fonts.css" />
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel='stylesheet' href='/stylesheets/monokai-sublime.css'/>
+    <script src="/javascripts/highlight.pack.js"></script>
+    <script src="/jquery/jquery.min.js"></script>
+    <script>
+      $(function() {
+        $('#convertButton').click(function() {
+          let sass = $('#in').val();
+          $.post('/', { sass }).done(data => {
+            const $out = $('#out');
+            $out.prop('textContent', data);
+            hljs.highlightBlock($out.get(0));
+          })
+        })
+      })
+    </script>
+  </head>
+  <body>
+    <textarea id="in"></textarea>
+    <br>
+    <button type="button" id="convertButton">Convert</button>
+    <br>
+    <div id="out"></div>
+  </body>
+</html>

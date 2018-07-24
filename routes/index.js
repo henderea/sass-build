@@ -3,7 +3,7 @@ var router = express.Router();
 var sass = require('node-sass');
 
 router.get('/', function(req, res, next) {
-  res.send('Please use POST');
+  res.render('index');
 })
 router.post('/', function(req, res, next) {
   const input = req.body.sass;
