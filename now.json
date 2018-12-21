@@ -31,12 +31,16 @@
         },
         {
             "src": "/",
-            "methods": ["GET"],
+            "methods": [
+                "GET"
+            ],
             "dest": "src/index.html"
         },
         {
             "src": "/",
-            "methods": ["POST"],
+            "methods": [
+                "POST"
+            ],
             "dest": "src/index.js"
         }
     ]
