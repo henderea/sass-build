@@ -1,7 +1,8 @@
 body {
   padding: 50px;
   font-size: 14px;
-  font-family: 'Operator Mono', monospace; }
+  font-family: 'Operator Mono', monospace;
+}
 
 textarea#in {
   width: 930px;
@@ -10,7 +11,8 @@ textarea#in {
   padding: 5px;
   border-radius: 5px;
   resize: none;
-  font-family: 'Operator Mono', monospace; }
+  font-family: 'Operator Mono', monospace;
+}
 
 div#out {
   display: inline-block;
@@ -21,6 +23,5 @@ div#out {
   padding: 20px;
   white-space: pre;
   font-size: 14px;
-  font-family: 'Operator Mono', monospace; }
-
-/*# sourceMappingURL=style.css.map */
+  font-family: 'Operator Mono', monospace;
+}
