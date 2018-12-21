@@ -1,7 +1,7 @@
 const sass = require('sass');
 const bodyParser = require('body-parser');
 const cors = require('cors');
-const Handler = require('../lib/handler');
+const Handler = require('@henderea/middleware-handler');
 
 const handler = new Handler();
 handler.use(cors());

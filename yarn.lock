@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@henderea/middleware-handler@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@henderea/middleware-handler/-/middleware-handler-1.0.0.tgz#e7c1010fb8147e70393193f02f9ebc980ca32414"
+  integrity sha512-r8sFycfjKQG2y9xqlRu/PFFN9qncFoBtJG458tqy/+NwC/iZkcRCvp3FhwsyWkS3lVDZC5Hp9e8+dfA2tAheAQ==
+
 abbrev@1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
