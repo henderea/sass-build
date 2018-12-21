@@ -1,6 +1,6 @@
 {
   "name": "sass-build",
-  "version": "1.0.12",
+  "version": "1.1.0",
   "private": true,
   "main": "start.js",
   "scripts": {
