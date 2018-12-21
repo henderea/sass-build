@@ -4,7 +4,6 @@
   "private": true,
   "main": "start.js",
   "scripts": {
-    "start": "node ./bin/www",
     "now-build": "node ./bin/copy-jquery.js"
   },
   "dependencies": {
