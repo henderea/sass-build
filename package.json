@@ -8,10 +8,10 @@
   },
   "dependencies": {
     "@henderea/middleware-handler": "^1.0.0",
-    "body-parser": "^1.18.3",
+    "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "fs-extra": "^7.0.1",
     "jquery": "^3.4.0",
-    "sass": "^1.18.0"
+    "sass": "^1.19.0"
   }
 }
